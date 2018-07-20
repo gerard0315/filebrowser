@@ -122,6 +122,7 @@ func printVersion() {
 }
 
 func main() {
+	fmt.Println("test commit")
 	setupViper()
 	flag.Parse()
 
